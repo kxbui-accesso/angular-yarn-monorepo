@@ -1,0 +1,16 @@
+{
+  "name": "lib1",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^18.2.0",
+    "@angular/core": "^18.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "package1": "workspace:*"
+  },
+  "files": ["dist/*"],
+  "module": "dist/index.esm.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts"
+}

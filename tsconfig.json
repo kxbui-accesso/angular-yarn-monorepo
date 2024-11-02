@@ -7,6 +7,17 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
+    "paths": {
+      "lib1": [
+        "./dist/lib1"
+      ],
+      "lib2": [
+        "./dist/lib2"
+      ],
+      "package1": [
+        "./packages/package1/src/index"
+      ],
+    },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
